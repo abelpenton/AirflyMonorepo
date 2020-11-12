@@ -15,7 +15,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@airfly-company/airfly-data": ["libs/airfly-data/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
