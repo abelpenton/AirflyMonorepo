@@ -20,6 +20,6 @@ export interface IAirflyAction {
 }
 
 export interface IAirflyLanguage {
-  name: string;
+  ISO: string;
   icon: string;
 }

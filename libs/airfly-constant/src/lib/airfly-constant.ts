@@ -12,6 +12,6 @@ export const darkColor: IColor = {
   body: '#FFFFFF'
 }
 
-export const languageEn = 'EN';
-export const languageSp = 'SP';
+export const ENGLISH = 'EN';
+export const SPANISH = 'SP';
 
