@@ -213,6 +213,27 @@
           }
         }
       }
+    },
+    "airfly-constant": {
+      "root": "libs/airfly-constant",
+      "sourceRoot": "libs/airfly-constant/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/airfly-constant/**/*.ts"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/airfly-constant/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "cli": {

@@ -39,6 +39,9 @@
     },
     "airfly-data": {
       "tags": []
+    },
+    "airfly-constant": {
+      "tags": []
     }
   }
 }
