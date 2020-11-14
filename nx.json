@@ -42,6 +42,9 @@
     },
     "airfly-constant": {
       "tags": []
+    },
+    "airfly-state": {
+      "tags": []
     }
   }
 }

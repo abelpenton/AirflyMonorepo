@@ -10,16 +10,12 @@ export interface IAirflyTheme {
 
 export interface IAirflyState {
   theme: IAirflyTheme,
-  language: IAirflyLanguage
+  language: string
 }
 
 
 export interface IAirflyAction {
   type: string;
-  payload?: never;
-}
-
-export interface IAirflyLanguage {
-  ISO: string;
-  icon: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  payload?: any;
 }
