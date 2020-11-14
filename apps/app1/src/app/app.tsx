@@ -1,12 +1,15 @@
 import React from 'react';
 import './app.css';
 import {App1View} from './app1View';
+import {AirflyProvider} from '@airfly-company/airfly-provider';
 
 export const App = () => {
   return (
-    <div>
-      <App1View/>
-    </div>
+    <AirflyProvider>
+      <div>
+        <App1View/>
+      </div>
+    </AirflyProvider>
   );
 };
 
