@@ -45,6 +45,9 @@
     },
     "airfly-state": {
       "tags": []
+    },
+    "airfly-provider": {
+      "tags": []
     }
   }
 }
