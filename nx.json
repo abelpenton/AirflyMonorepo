@@ -48,6 +48,9 @@
     },
     "airfly-provider": {
       "tags": []
+    },
+    "airfly-hooks": {
+      "tags": []
     }
   }
 }

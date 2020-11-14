@@ -6,5 +6,6 @@ module.exports = {
     '<rootDir>/libs/airfly-constant',
     '<rootDir>/libs/airfly-state',
     '<rootDir>/libs/airfly-provider',
+    '<rootDir>/libs/airfly-hooks',
   ],
 };
