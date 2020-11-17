@@ -51,6 +51,12 @@
     },
     "airfly-hooks": {
       "tags": []
+    },
+    "airfly-theme": {
+      "tags": []
+    },
+    "airfly-utils": {
+      "tags": []
     }
   }
 }

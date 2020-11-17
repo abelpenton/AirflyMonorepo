@@ -7,5 +7,7 @@ module.exports = {
     '<rootDir>/libs/airfly-state',
     '<rootDir>/libs/airfly-provider',
     '<rootDir>/libs/airfly-hooks',
+    '<rootDir>/libs/airfly-theme',
+    '<rootDir>/libs/airfly-utils',
   ],
 };

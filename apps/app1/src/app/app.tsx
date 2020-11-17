@@ -6,9 +6,7 @@ import {AirflyProvider} from '@airfly-company/airfly-provider';
 export const App = () => {
   return (
     <AirflyProvider>
-      <div>
         <App1View/>
-      </div>
     </AirflyProvider>
   );
 };

@@ -297,6 +297,48 @@
           }
         }
       }
+    },
+    "airfly-theme": {
+      "root": "libs/airfly-theme",
+      "sourceRoot": "libs/airfly-theme/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/airfly-theme/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/airfly-theme/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "airfly-utils": {
+      "root": "libs/airfly-utils",
+      "sourceRoot": "libs/airfly-utils/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/airfly-utils/**/*.ts"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/airfly-utils/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "cli": {
