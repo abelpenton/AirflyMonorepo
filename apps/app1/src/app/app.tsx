@@ -1,13 +1,13 @@
 import React from 'react';
 import './app.css';
-import {App1View} from './app1View';
-import {AirflyProvider} from '@airfly-company/airfly-provider';
+import {useTheme} from '@airfly-company/airfly-hooks';
 
 export const App = () => {
+  const theme = useTheme();
   return (
-    <AirflyProvider>
-        <App1View/>
-    </AirflyProvider>
+    <div style={{background: theme.color.background}} className="app">
+      <h1 style={{color: theme.color.body}}> Welcome App1 </h1>
+    </div>
   );
 };
 

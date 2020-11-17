@@ -1,13 +1,13 @@
 import {IColor} from '@airfly-company/airfly-data';
 
 export const ligthMode = 'LIGTH'
-export const ligthColor: IColor = {
+export const darkColor: IColor = {
   background: '#F8F8F9',
   body: '#161617'
 };
 
 export const darkMode = 'DARK';
-export const darkColor: IColor = {
+export const ligthColor: IColor = {
   background: '#161617',
   body: '#FFFFFF'
 }
