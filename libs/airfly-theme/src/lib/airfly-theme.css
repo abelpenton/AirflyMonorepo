@@ -36,11 +36,11 @@
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: black;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px dimgray;
 }
 
 input:checked + .slider:before {
@@ -52,7 +52,7 @@ input:checked + .slider:before {
 /* Rounded sliders */
 .slider.round {
   border-radius: 34px;
-  height: 10%;
+  height: 5%;
   width: 5%;
   margin-left: 70pc;
   margin-top: 4pc;
@@ -63,6 +63,6 @@ input:checked + .slider:before {
 }
 
 .input {
-  margin-left: 50pc;
-  margin-top: 2pc;
+  margin-left: 72pc;
+  margin-top: 4pc;
 }

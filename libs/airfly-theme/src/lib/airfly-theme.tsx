@@ -6,7 +6,7 @@ import {changeDarkTheme, changeLigthTheme} from '@airfly-company/airfly-state';
 import {darkMode} from '@airfly-company/airfly-constant';
 
 
-export const AirflyTheme = () => {
+export const AirflyTheme = ({children}) => {
   const {state, dispatch} = useContext(AirflyContext);
   const handleTheme = () => {
     state.theme.mode === darkMode ? dispatch(changeLigthTheme) : dispatch(changeDarkTheme);
@@ -17,6 +17,7 @@ export const AirflyTheme = () => {
         <input onChange={handleTheme} className="input" type="checkbox"/>
         <span className="slider round"></span>
       </label>
+      {children}
     </div>
   );
 };
