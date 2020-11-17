@@ -1,15 +1,13 @@
 import React from 'react';
 import './app.css';
-import {App2View} from './app2View';
-import {AirflyProvider} from '@airfly-company/airfly-provider';
+import {useTheme} from '@airfly-company/airfly-hooks';
 
 export const App = () => {
+  const theme = useTheme();
   return (
-    <AirflyProvider>
-      <div>
-        <App2View/>
-      </div>
-    </AirflyProvider>
+    <div style={{background: theme.color.background}} className="app">
+        <h1 style={{color: theme.color.body}}>Welcome App2</h1>
+    </div>
 
   );
 };

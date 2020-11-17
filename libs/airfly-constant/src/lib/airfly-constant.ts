@@ -8,7 +8,7 @@ export const darkColor: IColor = {
 
 export const darkMode = 'DARK';
 export const ligthColor: IColor = {
-  background: '#161617',
+  background: '#333',
   body: '#FFFFFF'
 }
 
