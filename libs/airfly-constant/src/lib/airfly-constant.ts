@@ -14,4 +14,4 @@ export const ligthColor: IColor = {
 
 export const ENGLISH = 'EN';
 export const SPANISH = 'SP';
-
+export const languages = [ENGLISH, SPANISH];

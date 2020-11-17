@@ -57,6 +57,9 @@
     },
     "airfly-utils": {
       "tags": []
+    },
+    "airfly-language": {
+      "tags": []
     }
   }
 }

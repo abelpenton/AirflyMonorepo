@@ -9,5 +9,6 @@ module.exports = {
     '<rootDir>/libs/airfly-hooks',
     '<rootDir>/libs/airfly-theme',
     '<rootDir>/libs/airfly-utils',
+    '<rootDir>/libs/airfly-language',
   ],
 };

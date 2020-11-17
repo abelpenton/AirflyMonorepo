@@ -22,7 +22,8 @@
       "@airfly-company/airfly-provider": ["libs/airfly-provider/src/index.ts"],
       "@airfly-company/airfly-hooks": ["libs/airfly-hooks/src/index.ts"],
       "@airfly-company/airfly-theme": ["libs/airfly-theme/src/index.ts"],
-      "@airfly-company/airfly-utils": ["libs/airfly-utils/src/index.ts"]
+      "@airfly-company/airfly-utils": ["libs/airfly-utils/src/index.ts"],
+      "@airfly-company/airfly-language": ["libs/airfly-language/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
